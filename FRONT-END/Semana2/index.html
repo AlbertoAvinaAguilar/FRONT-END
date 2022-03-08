@@ -183,7 +183,30 @@
 
         </div>
 
+        <form class="formCliente" method="post">
+            <h3>GENERAR PEDIDO</h3>
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="nombre"></br>
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Telefono:</label>
+                <input type="text" id="telefono" name="telefono"></br>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo electronico:</label>
+                <input type="email" id="correo" name="correo"></br>
+            </div>
 
+            <div class="form-group">
+                <label for="comentario">Comentario:</label>
+                <input type="text" id="comentario" name="comentario"></br>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Generar</button>
+            <input type="reset" class="btn btn-danger">
+        </form>
 
     </div>
 
