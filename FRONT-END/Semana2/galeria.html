@@ -5,38 +5,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css/miestilo.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <title>Layout y Rutas</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* Estilo de header */
+        
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        /* Crear 2 columnas con la misma posición en la fila */
+        
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            /* only for demonstration, should be removed */
+            background: #ccc;
+            padding: 20px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+        }
+        /* Clear floats after the columns */
+        
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Estilo de footer */
+        
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        /* Responsive layout */
+        
+        @media (max-width: 600px) {
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <section class="menu">
-        <div>
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="nav nav-pills">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="menu.html">Menú</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="galeria.html">Galeria</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <img class="imgMenu" alt="Bootstrap Image Preview" src="logo-dulmiel2.png" />
-                </div>
-            </div>
-        </div>
+
+    <header>
+        <h2>Ciudades</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Londres</a></li>
+                <li><a href="#">Paris</a></li>
+                <li><a href="#">Tokyo</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>Londres</h1>
+            <p>Londres es la capital de Inglaterra y es la ciudad más popular del Reino Unido, es la ciudad mas poblada con 13 millones de habitantes en su área metropolitana</p>
+        </article>
     </section>
 
-    galeria
+    <footer>
+        <p>Footer</p>
+    </footer>
+
 </body>
 
 </html>

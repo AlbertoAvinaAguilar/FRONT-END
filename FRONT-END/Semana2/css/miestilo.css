@@ -2,10 +2,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.logo {
-    width: 200px;
-}
-
 .menu {
     padding: 50px 100px 20px 100px;
     width: 100%;
@@ -13,10 +9,6 @@
     background-color: #f7f7f7;
     border-radius: 0px 0px 40px 40px;
     box-shadow: 1px 1px 11px #26252647;
-}
-
-.menu2 {
-    margin-top: 200px;
 }
 
 .nav {
@@ -204,4 +196,34 @@
     background: #e7e7e938;
     box-shadow: 1px 1px 11px #26252647;
     margin: 30px 0px 30px 0px;
+}
+
+.top-header {
+    width: 100%;
+}
+
+.logo {
+    width: 175px;
+    position: absolute;
+    top: 5px;
+    left: 150px;
+}
+
+.menu2 {
+    height: 175px;
+    font-size: 28px;
+}
+
+.person-header {
+    position: absolute;
+    top: -145px;
+    left: 0px;
+    width: 100%;
+}
+
+.pastel-header {
+    position: absolute;
+    top: -61px;
+    left: 128px;
+    width: 100%;
 }
