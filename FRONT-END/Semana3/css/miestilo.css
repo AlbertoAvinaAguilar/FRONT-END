@@ -1,0 +1,68 @@
+.logo {
+    padding: 2% 0px 0px 10%;
+}
+
+.navlogo {
+    padding: 2% 0px 0px 10%;
+}
+
+.titleLogo {
+    color: rgb(54 85 208);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(112 121 147);
+}
+
+.nav-item {
+    padding: 0px 30px;
+}
+
+.btnBuster {
+    width: 220px;
+    background: #2f4fcd;
+    color: white;
+    border: 0 none;
+    border-radius: 10px;
+    font-style: bold;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 15px 0px;
+    font-size: 25px;
+    box-shadow: 0px 11px 24px rgb(137 158 224 / 84%);
+}
+
+.gradient {
+    background: linear-gradient(90deg, #ffffff 50%, #e8f2fc 50%);
+    height: 150px;
+}
+
+.bodyrigth {
+    background-image: url(../img/fondo1.jpg);
+    background-repeat: no-repeat;
+    height: 705px;
+}
+
+.textBodyRight {
+    color: rgb(31 62 114);
+    font-weight: 700;
+    font-size: 80px;
+    padding: 15% 0px 0px 10%;
+}
+
+.textBodyRight-bottom {
+    color: rgb(109 123 147);
+    font-weight: 400;
+    font-size: 30px;
+    padding: 10% 0px 0px 10%;
+}
+
+.bodylefth {
+    background-image: url(../img/vacunacce.jpg);
+    background-repeat: no-repeat;
+    height: 705px;
+}
