@@ -106,7 +106,7 @@ const fetchPokemon = () => {
     fetch(url).then((res) => {
         //console.log(res);
         if (res.status != "200") {
-            pokeImage("../../Semana2/logo-dulmiel.png")
+            pokeImage("../../Semana2/logo-dulmiel01.png")
         } else {
             return res.json();
         }
