@@ -1,3 +1,13 @@
+//Var se utiliza en un hambito global, let es usada solo en el bloque donde se implemente
+let edad = 10;
+if (true) {
+    let edad = 20;
+    console.log(edad);
+}
+console.log(edad);
+
+
+
 let habilitar = "b";
 if (habilitar == "c") {
     //Condicionales IF
